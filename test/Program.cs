@@ -6,7 +6,7 @@ namespace test
     {
         static void Main(string[] args)
         {
-            var num = FibonacciRec(0,1,0);
+            var num = FibonacciRec(0,0,2);
 
             System.Console.WriteLine(num);
         }
@@ -34,3 +34,14 @@ namespace test
         }
     }
 }
+
+// first condition
+// 1. if numFibs = 2 and num2 = 1
+// 2. if numFibs != 2 and num2 = 1
+// 3. if numFibs =2 and num2 !=1
+
+// numFibs = 3
+
+// AND && means both conditions must be true
+
+

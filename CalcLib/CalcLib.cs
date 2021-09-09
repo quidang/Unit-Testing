@@ -8,12 +8,16 @@
         /// <param name="ans"></param>
         /// <returns></returns>
         public int FactorialRec(int input, int ans) {
-            if (input == 0) {
+                if (input == 0) {
                 return ans;
             }
-
+            
             ans = ans * input;
             return FactorialRec(input - 1, ans);
+
+            //equals to 0
+
+    
         }
         
         
@@ -81,3 +85,6 @@
         }
     }
 }
+
+
+// postive and negative cases
